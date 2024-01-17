@@ -3,7 +3,7 @@
 ## Installation Requirements
 You are going to need the following programs installed on your computer thorughtout the semester:
 - [Python](https://www.python.org/downloads/) 3.10+
-- Git [Windows](https://git-scm.com/download/windows) or [Mac](https://git-scm.com/download/mac)
+- Git [Windows](https://git-scm.com/download/windows)) or [Mac](https://git-scm.com/download/mac)
 - [Visual Studio Code](https://code.visualstudio.com/download) (recommended) or another IDE with integrated Shell
 
 ## Syncing class material to your computer

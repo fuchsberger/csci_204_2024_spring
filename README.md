@@ -3,13 +3,13 @@
 ## Installation Requirements
 You are going to need the following programs installed on your computer thorughtout the semester:
 - [Python](https://www.python.org/downloads/) 3.10+
-- Git ([Windows](https://git-scm.com/download/windows)) or Command Line Tools ([Mac](https://git-scm.com/download/mac))
+- Git [Windows](https://git-scm.com/download/windows) or [Mac](https://git-scm.com/download/mac)
 - [Visual Studio Code](https://code.visualstudio.com/download) (recommended) or another IDE with integrated Shell
 
 ## Syncing class material to your computer
 You can clone this repository (requires git installed) by running the following:
 ```bash
-git clone
+git clone git@github.com:fuchsberger/csci_204_2024_spring.git
 ```
 
 If you see this file apparing on your computer you have successfully synced the class materials.

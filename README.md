@@ -9,7 +9,7 @@ You are going to need the following programs installed on your computer thorught
 ## Syncing class material to your computer
 You can clone this repository (requires git installed) by running the following:
 ```bash
-git clone git@github.com:fuchsberger/csci_204_2024_spring.git
+git clone https://github.com/fuchsberger/csci_204_2024_spring.git
 ```
 
 If you see this file apparing on your computer you have successfully synced the class materials.

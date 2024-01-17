@@ -11,6 +11,7 @@ You can clone this repository (requires git installed) by running the following:
 ```bash
 git clone https://github.com/fuchsberger/csci_204_2024_spring.git
 ```
+**_Note: The link above has been updated since class. Cloning should work now without having public key authentication set up._**
 
 If you see this file apparing on your computer you have successfully synced the class materials.
 

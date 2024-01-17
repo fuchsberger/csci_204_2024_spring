@@ -27,3 +27,5 @@ git reset --hard
 git pull
 ```
 
+I do also recommending saving this folder as a workspace in VS Code.
+Use a separate workspace for your coding related activities (including assignments)

@@ -3,7 +3,7 @@
 ## Installation Requirements
 You are going to need the following programs installed on your computer thorughtout the semester:
 - [Python](https://www.python.org/downloads/) 3.10+
-- Git [Windows](https://git-scm.com/download/windows)) or [Mac](https://git-scm.com/download/mac)
+- Git [Windows](https://git-scm.com/download/windows) or [Mac](https://git-scm.com/download/mac)
 - [Visual Studio Code](https://code.visualstudio.com/download) (recommended) or another IDE with integrated Shell
 
 ## Syncing class material to your computer
@@ -27,6 +27,10 @@ Note that this should remain a read-only place throghout the semester. While you
 git reset --hard
 git pull
 ```
+### Workspace
+I do recommending saving the pulled class Materials folder as a workspace in VS Code.
 
-I do also recommending saving this folder as a workspace in VS Code.
-Use a separate workspace for your coding related activities (including assignments)
+Also i do recommend creating a second "Main" folder as a workspace that you use throughout the semester for coding activities and notes.
+
+
+The Advantage of using workspaces is that VS Code remembers your open tabs, outline so when you close the program you start right where you left off.

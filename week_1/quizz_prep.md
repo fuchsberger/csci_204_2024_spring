@@ -1,4 +1,7 @@
 # Quizz Week 2
+
+**Please bring your laptop to class as the quiz will take place on gradescope.**
+
 - basic familarity with the following unix commands: `ls`, `cd`, `mv`
 - basic familiary with paths in unix environments and understanding of `..` (parent folder) and `~` (home directory)
 - create a basic class and a constructor for it.

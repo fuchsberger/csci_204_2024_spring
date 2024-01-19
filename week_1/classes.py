@@ -1,5 +1,6 @@
 # Intro Classes
 
+# Slides 1.1 https://docs.google.com/presentation/d/1Tj0DzYxl90mE0_hAi67fFNZ3n5aswwNW6uRrJhQrmec/edit?usp=sharing
 
 
 # class CustomList:

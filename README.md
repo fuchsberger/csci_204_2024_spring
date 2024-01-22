@@ -4,7 +4,10 @@
 You are going to need the following programs installed on your computer thorughtout the semester:
 - [Python](https://www.python.org/downloads/) 3.10+
 - Git [Windows](https://git-scm.com/download/windows) or [Mac](https://git-scm.com/download/mac)
-- [Visual Studio Code](https://code.visualstudio.com/download) (recommended) or another IDE with integrated Shell
+
+Optional (but highly recommended)
+- [Visual Studio Code](https://code.visualstudio.com/download) or another IDE with integrated Shell
+- [WSL Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/install) (if using Windows)
 
 ## Syncing class material to your computer
 You can clone this repository (requires git installed) by running the following:

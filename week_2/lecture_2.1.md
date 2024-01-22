@@ -134,3 +134,7 @@ Its okay and preferable to rely on python raising exceptions. Manual raising and
 - clarify error message more precisely
 - egde cases
 
+#### Practice Activity
+Create a function that asks for a temperature in Celsius and returns the temperature in Fahrenheit.
+
+If any non-numeric value was provided raise a custom exception of type `InvalidNumberException` with the message: "Not a number".

@@ -1,4 +1,4 @@
-# Quizz Week 2
+# Quiz 1
 
 **Please bring your laptop to class as the quiz will take place on gradescope.**
 

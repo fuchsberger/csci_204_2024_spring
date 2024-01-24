@@ -1,3 +1,7 @@
+"""
+This example demonstrates importing from a subfolder as well as from a python build-in module.
+"""
+
 import math
 import helpers.math as math2
 

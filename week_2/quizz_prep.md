@@ -13,5 +13,5 @@ _Please bring your laptop to class as the quiz will take place on gradescope._
   - how to use basic assert functions such as assertEqual or assertRaises
   - list advantages over less sophisticated approaches
 - Activity featured in lecture 2.2 (complete it!)
-
+- Understanding of Big O and the ability to determine the correct order of magnitude for simple algorithms.
 

@@ -9,6 +9,12 @@ def power(x, n):
     """
     result = x
 
+    if n < 0:
+        raise ValueError
+
+    if n == 0:
+        return 1
+
     for _i in range(1, n):
         result *= x
 

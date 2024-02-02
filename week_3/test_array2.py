@@ -14,3 +14,11 @@ class ArrayTests(unittest.TestCase):
 
     with self.assertRaises(TypeError):
       Array()
+
+  def test_other(self):
+    obj = Array(3)
+
+    obj[0] = True
+
+    self.assertTrue(obj[0])
+    self.assertIsNone(obj[1])

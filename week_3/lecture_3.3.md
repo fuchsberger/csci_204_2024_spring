@@ -1,4 +1,4 @@
-# Lecture 3.3 2D Array Activities
+# Lecture 3.3 Test Coverage & Array Activities
 
 In this lecture we will go through a series of practical problems and improve the given Array / 2D array classes in the process.
 

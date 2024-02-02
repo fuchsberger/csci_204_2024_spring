@@ -34,6 +34,12 @@ class Array:
         for i in range( len( self ) ):
             self._elements[ i ] = value
 
+    def __str__(self):
+        # Array(2) [None, None]
+        elements = [str(e) for e in self]
+        elements = ", ".join(elements)
+        return f"Array ({len(self)}) [{elements}]"
+
     # Return the array's iterator for traversing the elements
     def __iter__( self ):
         return _ArrayIterator( self._elements )

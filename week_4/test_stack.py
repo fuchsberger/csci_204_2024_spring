@@ -10,7 +10,7 @@ class StackTests(unittest.TestCase):
         self.assertEqual(len(self.stack), 0)
         self.stack.push(1)
         self.assertEqual(len(self.stack), 1)
-        self.stack.push(0)
+        self.stack.pop()
         self.assertEqual(len(self.stack), 0)
 
     def test_order(self):
@@ -25,5 +25,14 @@ class StackTests(unittest.TestCase):
         with self.assertRaises(StackError):
             self.stack.pop()
 
-    def test_limited_stack(self):
+    def test_peek(self):
+        # TODO
+        self.assertIsNone(self.stack.peek())
+        self.stack.push(1)
+        self.assertEqual(self.stack.peek(), 1)
+        self.assertEqual(len(self.stack), 1)
 
+
+    # def test_limited_stack(self):
+
+StackTests()

@@ -1,11 +1,12 @@
 import unittest
 
-from stack import Stack, StackError, LimitedStack
+from stack import Stack, StackError, LimitedStack, UnlimitedStack
 
 class StackTests(unittest.TestCase):
     def setUp(self):
         self.stack = Stack()
         self.lStack = LimitedStack(2)
+        self.uStack = UnlimitedStack(3)
 
     def test_length(self):
         self.assertEqual(len(self.stack), 0)
@@ -39,5 +40,15 @@ class StackTests(unittest.TestCase):
 
         with self.assertRaises(StackError):
             self.lStack.push(3)
+
+    def test_unlimited_stack(self):
+        self.uStack.push("A")
+        self.uStack.push("B")
+        self.uStack.push("C")
+        self.assertEqual(self.uStack.elements, ["A", "B", "C"])
+
+        self.uStack.push("D")
+        self.assertEqual(self.uStack.elements, ["B", "C", "D"])
+
 
 StackTests()

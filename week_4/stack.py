@@ -52,5 +52,9 @@ class UnlimitedStack(LimitedStack):
     """
     Just like the Limited Stack but should not raise an exception when pushing into a full stack. Instead the oldest element at the bottom of the stack should be kicked out to make room.
     """
-    pass
-
+    def push(self, element):
+        if len(self) < self._max:
+            self.elements.append(element)
+        else:
+            self.elements.pop(0)
+            self.elements.append(element)

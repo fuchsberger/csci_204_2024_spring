@@ -26,6 +26,7 @@ class Stack:
         """Should return a string containing elements separate by " > "
         For example: "A > B > C"
         """
-        # TODO: <<<<<<<<<<<<<<<<<<<<<<<<<<<
+        # Comment: does work for city names, (expects all items in iterable to be strings. This is why it didnt work in class for numbers)
+        return " > ".join(self.elements)
 
 

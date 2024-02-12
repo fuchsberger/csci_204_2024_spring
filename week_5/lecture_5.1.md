@@ -41,3 +41,9 @@ The general syntax is:
 - use values or variables before the `:`
 - follow with a `<`, `>`, `^` and a number `n` to left, right-, or center-align the value into `n` spaces
 - (optional) for decimals: use `.xf` after your alignment instructions to indicate the result should be a float rounded to `x` decimals.
+- If you ever wanted to use `{` or `}` normally inside a formatted string you can do so by escaping them:
+
+```python
+f"Hello \{World\}"
+# Hello {World}
+```

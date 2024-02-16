@@ -161,3 +161,7 @@ cython_debug/
 
 *.code-workspace
 .DS_STORE
+
+# exclude solutions
+*_sol/*
+**/*_sol.py

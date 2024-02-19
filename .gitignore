@@ -162,6 +162,7 @@ cython_debug/
 *.code-workspace
 .DS_STORE
 
-# exclude solutions
+# exclude solutions and class notes
 *_sol/*
 **/*_sol.py
+**/notes.py

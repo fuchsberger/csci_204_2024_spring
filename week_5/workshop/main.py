@@ -39,7 +39,23 @@ def depth_first_search(graph, src, dest):
       - None (if no path was found)
     """
     # TODO <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-    pass
+
+    visited = unvisit_all(graph)
+    stack = Stack()
+
+    stack.push((src, [src]))
+    visited[src] = True
+
+    while len(stack) > 0:
+        curr, path = stack.pop()
+
+        for city in graph[curr]:
+            if city == dest:
+                return path + [city]
+
+            if not visited[city]:
+              stack.push((city, path + [city]))
+              visited[city] = True
 
 def breath_first_search(graph, src, dest):
     """

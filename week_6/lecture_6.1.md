@@ -1,5 +1,7 @@
 # Size, IDs, Aliases, Nodes and Linked Lists
 
+> **Reminder:** There is a gradescope homework open on Gradescope and due Wednesday evening.
+
 ### Determining size
 Every object in python takes up space in memory. We can determine the size of an object in two ways:
 

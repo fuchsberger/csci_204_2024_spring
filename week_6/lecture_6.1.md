@@ -96,3 +96,18 @@ class Node:
 1. Ceate a few nodes (values 'A', 'B', and 'c') and connect them together.
 2. Create a loop that loops through the connected sequence of nodes and prints their value.
 
+**Activity Solution:**
+```python
+n1 = Node("A")
+n2 = Node("B")
+n3 = Node("C")
+
+n1.next = n2
+n2.next = n3
+
+curr = n1
+
+while curr != None:
+    print(curr.value)
+    curr = curr.next
+```

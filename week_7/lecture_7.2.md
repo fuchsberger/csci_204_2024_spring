@@ -39,9 +39,9 @@ def __str__(self):
     s = 'CList[' + str(h.data)
     h = h.next
     while h != self.ref:
-        if h != self.ref:
-            s += ', '
-            s += str(h.data)
+
+        s += ', '
+        s += str(h.data)
         h = h.next
 
     s += ']'
@@ -112,7 +112,7 @@ def find_place(self, node):
 ## In-Class Activity
 Try out `test_singly_circular_list.py`.
 
-Then (in small groups) complete the `remove(self, value)` method.
+Then (in small groups) complete the `remove(self, value±±)` method.
 
 ## Homework (4 points)
 

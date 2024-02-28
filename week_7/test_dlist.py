@@ -1,6 +1,6 @@
 import unittest
 from random import *
-from dlist import DList
+from dlist_sol import DList
 
 class Tests(unittest.TestCase):
     def setUp(self):

@@ -1,3 +1,11 @@
+"""
+Author: Alexander Fuchsberger
+Last Revised: 03/01/2024
+Class: CSCI 204
+
+WORKING FILE
+"""
+
 import math
 from clist import CList, CNode
 

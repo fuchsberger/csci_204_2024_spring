@@ -1,6 +1,4 @@
 """
-Do not copy code from this file into processor.py. Instead you should build your Processor and Process classes to import and use the content of clist.
-
 Author: Alexander Fuchsberger
 Last Revised: 03/01/2024
 Class: CSCI 204

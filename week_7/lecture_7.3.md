@@ -99,6 +99,8 @@ def boot(self, stop_after = math.inf):
 
     if self.time_passed == 5000:
       self.kill(1)
+
+  print(self)
 ```
 
 ### Simulation Example

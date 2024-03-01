@@ -32,7 +32,7 @@ def boot(self, stop_after = math.inf):
 
   print(self)
 
-def spawn(self, process): # 1 point
+def spawn(self, process):
   """
   Creates and adds a new process with the given running time to the CPU.
   Should also print the following line:
@@ -40,7 +40,7 @@ def spawn(self, process): # 1 point
   """
   pass
 
-def tick(self): # 3 points
+def tick(self):
   """
   Deducts 5 ms from the current process (no effect on infinite processes).
     - If the remaining time of the process reached 0, despawns the process.
@@ -54,7 +54,7 @@ def tick(self): # 3 points
   """
   pass
 
-def kill(self, id): # 1 point
+def kill(self, id):
   """
   Finds and terminates a specific process with the given ID (despawn it).
   Should also print the following line:
@@ -62,7 +62,7 @@ def kill(self, id): # 1 point
   """
   pass
 
-def __str__(self): # 1 point
+def __str__(self):
   """
   Prints a list of the current processes that are running on the server. For example:
 

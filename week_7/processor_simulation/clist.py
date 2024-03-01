@@ -28,8 +28,7 @@ class CList:
             self.head = node
 
     def remove(self):
-        """ Removes and returns the head node and sets the following node to be head. Raises an exception if List is
-
+        """ Removes and returns the head node and sets the following node to be head. Raises an exception if List is empty.
         """
         if self.head == None:
             raise Exception("Cannot remove a node from an empty list.")

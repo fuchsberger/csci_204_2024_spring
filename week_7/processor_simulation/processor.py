@@ -36,7 +36,7 @@ def tick(self): # 3 points
   """
   Deducts 5 ms from the current process (no effect on infinite processes).
     - If the remaining time of the process reached 0, despawns the process.
-      - If the despawned node was set to repeat, immediatly respawns a node with the same time and respawn attributes.
+      - If the despawned node was set to repeat, immediatly respawns a node with the same id, time and respawn attributes.
 
   Then moves on to the next process.
 

@@ -17,15 +17,15 @@ print("Start up sequence inititated.\n")
 
 cpu = Processor()
 
-# spawn required processes
+# spawn processes
 cpu.spawn(Process(1, math.inf))
-cpu.spawn(Process(8, 50))
-cpu.spawn(Process(7, math.inf))
-cpu.spawn(Process(6, 100))
-cpu.spawn(Process(5, 150))
-cpu.spawn(Process(4, 200))
-cpu.spawn(Process(3, math.inf))
 cpu.spawn(Process(2, math.inf))
+cpu.spawn(Process(3, math.inf))
+cpu.spawn(Process(4, 1200))
+cpu.spawn(Process(5, 100, True))
+cpu.spawn(Process(6, 150))
+cpu.spawn(Process(7, math.inf))
+cpu.spawn(Process(8, 50))
 
 # prints the processor initally
 print(cpu)

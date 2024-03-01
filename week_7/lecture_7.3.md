@@ -41,7 +41,7 @@ class Process(CNode):
 ### ToDo
 You will have to complete the following `Processor` methods:
 ```python
-def spawn(self, ms = math.inf, repeat=False): # 1 point
+def spawn(self, process):
   """
   Creates and adds a new process with the given running time to the CPU.
   Should also print the following line:
@@ -51,7 +51,7 @@ def spawn(self, ms = math.inf, repeat=False): # 1 point
 ```
 
 ```python
-def tick(self): # 3 points
+def tick(self):
   """
   Deducts 5 ms from the current process (no effect on infinite processes).
     - If the remaining time of the process reached 0, despawns the process.
@@ -67,7 +67,7 @@ def tick(self): # 3 points
 ```
 
 ```python
-def kill(self, id): # 1 point
+def kill(self, id):
   """
   Finds and terminates a specific process with the given ID (despawn it).
   Should also print the following line:
@@ -77,16 +77,12 @@ def kill(self, id): # 1 point
 ```
 
 ```python
-def __str__(self): # 1 point
+def __str__(self):
   """
   Prints a list of the current processes that are running on the server. For example:
 
   Server has been running for <time> ms.
-   ID | Remaining Time
-  --------------------
-    1 | inf
-   11 | 85
-    3 | inf
+  [(8:50)(1:inf), (2:inf), (3:inf), (4:1200), (5:100), (6:150), (7:inf)]
   """
   return ""
 ```

@@ -32,7 +32,7 @@ def boot(self, stop_after = math.inf):
 
   print(self)
 
-def spawn(self, ms = math.inf, repeat=False): # 1 point
+def spawn(self, process): # 1 point
   """
   Creates and adds a new process with the given running time to the CPU.
   Should also print the following line:
@@ -76,7 +76,7 @@ def __str__(self): # 1 point
   return ""
 
 class Process(CNode):
-  def __init__(self, id, time, repeat):
+  def __init__(self, id, time, repeat=False):
     """Creates a new process.
     DO NOT MODIFY
     """

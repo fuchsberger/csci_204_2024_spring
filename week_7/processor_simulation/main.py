@@ -7,7 +7,7 @@ DO NOT CHANGE THIS FILE
 """
 
 import math
-from processor_sol import Processor, Process
+from processor import Processor, Process
 
 # TESTING PROCESSOR
 

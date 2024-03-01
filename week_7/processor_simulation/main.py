@@ -1,0 +1,36 @@
+"""
+Do not copy code from this file into processor.py. Instead you should build your Processor and Process classes to import and use the content of clist.
+
+Author: Alexander Fuchsberger
+Last Revised: 03/01/2024
+Class: CSCI 204
+
+DO NOT CHANGE THIS FILE
+"""
+
+import math
+from processor import Processor, Process
+
+# TESTING PROCESSOR
+
+print("Start up sequence inititated.\n")
+
+cpu = Processor()
+
+# spawn required processes
+cpu.spawn(Process(1, math.inf))
+cpu.spawn(Process(8, 50))
+cpu.spawn(Process(7, math.inf))
+cpu.spawn(Process(6, 100))
+cpu.spawn(Process(5, 150))
+cpu.spawn(Process(4, 200))
+cpu.spawn(Process(3, math.inf))
+cpu.spawn(Process(2, math.inf))
+
+# prints the processor initally
+print(cpu)
+
+# run processor
+cpu.boot(10000)
+
+print("\nShut down sequence initialized.")

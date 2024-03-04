@@ -1,6 +1,8 @@
 ## Useful Git Commands
 
-#### Setting up public key authentication (unix system)
+The following setup commands will only work on unix systems (Lab Computers, Mac, WSL environments):
+
+#### Setting up public key authentication
 ```bash
 cd ~
 ssh-keygen

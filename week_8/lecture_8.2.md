@@ -148,8 +148,7 @@ tolerance `ε` (i.e. `|f(ˆx)| < ε)`.
 2. Compute a new value `m = (n+p) / 2`
 
 3. Compare `|f(m)|` and `ε`:
-  - (Base case) if |f(m)| < ε, we nd a
-solution, return m.
+  - (Base case) if `|f(m)| < ε`, we find a solution, return `m`.
   - (Recursive cases) else
     - if `f(m) < 0` set `n = m`
     - else if `f(m) > 0` set `p = m`

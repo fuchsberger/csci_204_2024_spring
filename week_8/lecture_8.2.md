@@ -92,6 +92,9 @@ def reverse_print(self):
     result = result + " " + curr.data
     curr = curr.next
 
+  if curr:
+    result = result + " " + curr.data
+
   print(result.lstrip())
 ```
 

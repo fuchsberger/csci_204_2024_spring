@@ -18,6 +18,16 @@ def insertion_sort(sequence):
 def bubble_sort(sequence):
     # TODO: Activity 3
 
+    swapped = True
+    
+    while swapped:
+        swapped = False
+
+        for i in range(0, len(sequence)-1):
+            if sequence[i] > sequence[i+1]:
+                swap(sequence, i, i+1)
+                swapped = True
+
     return sequence
 
 def shell_sort(sequence):

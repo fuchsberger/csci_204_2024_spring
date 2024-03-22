@@ -11,6 +11,19 @@ def insertion_sort(sequence):
     # TODO: Activity 2
 
     # loop through all indexes
-    # keep track of current index and next element
-      # shift back element until no longer smaller than then current
+        # keep track of current index and next element
+        # shift curent element forward until no longer smaller element at that position
     return sequence
+
+def bubble_sort(sequence):
+    # TODO: Activity 3
+
+    return sequence
+
+def shell_sort(sequence):
+    # TODO: Activity 4
+
+    return sequence
+
+def swap(sequence, idx_1, idx_2) -> None:
+    sequence[idx_1], sequence[idx_2] = sequence[idx_2], sequence[idx_1]

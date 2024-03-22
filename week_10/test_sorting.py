@@ -1,5 +1,5 @@
 import unittest
-from sorting import selection_sort, insertion_sort
+from sorting import *
 
 class TestSorting(unittest.TestCase):
     def setUp(self) -> None:
@@ -12,6 +12,14 @@ class TestSorting(unittest.TestCase):
 
     def test_insertion_sort(self):
         result = insertion_sort(self.sequence)
+        self.assertEqual(result, self.goal)
+
+    def test_bubble_sort(self):
+        result = bubble_sort(self.sequence)
+        self.assertEqual(result, self.goal)
+
+    def test_shell_sort(self):
+        result = shell_sort(self.sequence)
         self.assertEqual(result, self.goal)
 
 if __name__ == "__main__":

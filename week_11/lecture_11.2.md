@@ -48,8 +48,41 @@ def pythonMergeSort( theList ):
     rightHalf = pythonMergeSort( theList[ mid: ] )
 
     # Merge the two ordered sublists.
-    newList = leftHalf + rightHalf
+    newList = merge(leftHalf, rightHalf)
     return newList
+```
+
+```python
+def merge( left, right ):
+    """
+    Merge to sorted list, left and right, into one sorted list.
+    """
+    aList = []
+    lt = 0
+    rt = 0
+
+    # Repeatedly move the smallest of left and right to the new list
+    while lt < len( left ) and rt < len( right ):
+        if left[ lt ] < right[ rt ]:
+            aList.append( left[ lt ]  )
+            lt += 1
+        else:
+            aList.append( right[ rt ] )
+            rt += 1
+
+    # There will only be elements left in one of the original two lists.
+
+    # Append the remains of left (lt..end) on to the new list.
+    while lt < len(left):
+        aList.append( left[ lt ] )
+        lt += 1
+
+    # Append the remains of right (rt..end) on to the new list.
+    while rt < len( right ):
+        aList.append( right[ rt ] )
+        rt += 1
+
+    return aList
 ```
 
 ### Implementation: Improved Version
